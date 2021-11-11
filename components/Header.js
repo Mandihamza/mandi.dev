@@ -1,3 +1,9 @@
-export default function Header({ title }) {
-  return <h1 className="title">{title}</h1>
+import styled from 'styled-components';
+
+export default function Header() {
+  return <StyledHeader>mandi.dev</StyledHeader>
 }
+
+const StyledHeader = styled.h1`
+  color: hotpink;
+`
